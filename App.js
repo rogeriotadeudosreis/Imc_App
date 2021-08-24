@@ -36,7 +36,7 @@ export default function App() {
     cleanField();
   }
 
-  function cleanField() {
+  function cleanField () {
     this.peso = "";
     this.altura = "";
   }
