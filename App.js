@@ -60,7 +60,7 @@ export default function App() {
           placeholderTextColor="green"
           placeholder="Informe seu peso"
           style={styles.inputPeso}
-          keyboardType="numeric"
+          keyboardType=""
           onChangeText={(numero) => setPeso(numero)}
         ></TextInput>
         {/* input da altura */}
